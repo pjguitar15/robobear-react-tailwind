@@ -5,7 +5,7 @@ import BearIcon from './BearIcon'
 import MobileNavbar from './MobileNavbar'
 
 const Navbar = () => {
-  const [mobileNavOpen, setMobileNavOpen] = useState(true)
+  const [mobileNavOpen, setMobileNavOpen] = useState(false)
   return (
     <div className='bg-purple-900 py-3 lg:py-7 font-Poppins sticky top-0 z-50'>
       <div className='container flex items-center text-blue-100'>

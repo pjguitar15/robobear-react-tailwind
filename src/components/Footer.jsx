@@ -7,7 +7,7 @@ const Footer = () => {
       <div className='container'>
         <div className='py-12 lg:flex'>
           <div className='w-full md:w-5/8 flex'>
-            <div className='grid grid-cols-3 md:grid-cols-4 md:w-5/8 gap-20'>
+            <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 md:w-5/8 gap-20'>
               <FooterGrids title='Solutions' />
               <FooterGrids title='Support' />
               <FooterGrids title='Company' />
@@ -22,7 +22,7 @@ const Footer = () => {
               The latest news, articles, and resources, sent to your inbox
               weekly.
             </div>
-            <div className='flex gap-3'>
+            <div className='flex gap-3 flex-wrap'>
               <input
                 type='email'
                 placeholder='Enter email...'
